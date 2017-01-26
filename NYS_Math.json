@@ -1,0 +1,978 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "a2nf-cvfm",
+      "name" : "NYS Math Test Results By Grade 2006-2011 - Boro - All Students",
+      "attribution" : "Department of Education (DOE)",
+      "averageRating" : 0,
+      "category" : "Education",
+      "createdAt" : 1317852679,
+      "description" : "New York City Results on the New York State Mathematics Tests, Grades 3 - 8\r\nNotes:\r\nAs of 2006, the New York State Education Department expanded the ELA and mathematics testing programs to Grades 3-8. Previously, state tests were administered in Grades 4 and 8 and citywide tests were administered in Grades 3, 5, 6, and 7.\r\nIn 2006, NYSED treated District 75 students as a distinct geographic district. For 2007-2011, District 75 students are represented in their home districts and boroughs. Spreadsheets for District and Borough do not include District 75 students in 2006.\r\nStarting in 2010, NYSED changed the scale score required to meet each of the proficiency levels, increasing the number of questions students needed to answer correctly to meet proficiency.",
+      "displayType" : "table",
+      "downloadCount" : 659,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1414260392,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 340574,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1318352753,
+      "publicationGroup" : 243318,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1317852700,
+      "rowsUpdatedBy" : "rnig-m3uj",
+      "tableId" : 243318,
+      "totalTimesRated" : 0,
+      "viewCount" : 258,
+      "viewLastModified" : 1409938850,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 2959980,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "fieldName" : "borough",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1554362,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 210,
+          "largest" : "STATEN ISLAND",
+          "null" : 0,
+          "top" : [ {
+            "item" : "BRONX",
+            "count" : 20
+          }, {
+            "item" : "BROOKLYN",
+            "count" : 19
+          }, {
+            "item" : "MANHATTAN",
+            "count" : 18
+          }, {
+            "item" : "QUEENS",
+            "count" : 17
+          }, {
+            "item" : "STATEN ISLAND",
+            "count" : 16
+          } ],
+          "smallest" : "BRONX"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959981,
+        "name" : "Grade",
+        "dataTypeName" : "text",
+        "fieldName" : "grade",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1554363,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 210,
+          "largest" : "All Grades",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3",
+            "count" : 20
+          }, {
+            "item" : "4",
+            "count" : 19
+          }, {
+            "item" : "5",
+            "count" : 18
+          }, {
+            "item" : "6",
+            "count" : 17
+          }, {
+            "item" : "7",
+            "count" : 16
+          }, {
+            "item" : "8",
+            "count" : 15
+          }, {
+            "item" : "All Grades",
+            "count" : 14
+          } ],
+          "smallest" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959982,
+        "name" : "Year",
+        "dataTypeName" : "text",
+        "fieldName" : "year",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1554364,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 210,
+          "largest" : "2011",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2006",
+            "count" : 20
+          }, {
+            "item" : "2007",
+            "count" : 19
+          }, {
+            "item" : "2008",
+            "count" : 18
+          }, {
+            "item" : "2009",
+            "count" : 17
+          }, {
+            "item" : "2010",
+            "count" : 16
+          }, {
+            "item" : "2011",
+            "count" : 15
+          } ],
+          "smallest" : "2006"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959983,
+        "name" : "Category",
+        "dataTypeName" : "text",
+        "fieldName" : "category",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1554365,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 210,
+          "largest" : "All Students",
+          "null" : 0,
+          "top" : [ {
+            "item" : "All Students",
+            "count" : 20
+          } ],
+          "smallest" : "All Students"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959984,
+        "name" : "Number Tested",
+        "dataTypeName" : "number",
+        "fieldName" : "number_tested",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554366,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "24529.32380952381",
+          "largest" : "139780",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4305",
+            "count" : 20
+          }, {
+            "item" : "4260",
+            "count" : 19
+          }, {
+            "item" : "4300",
+            "count" : 18
+          }, {
+            "item" : "25881",
+            "count" : 17
+          }, {
+            "item" : "26520",
+            "count" : 16
+          } ],
+          "smallest" : "4133",
+          "sum" : "5151158"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959985,
+        "name" : "Mean Scale Score",
+        "dataTypeName" : "number",
+        "fieldName" : "mean_scale_score",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554367,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "672.7714285714286",
+          "largest" : "696",
+          "null" : 0,
+          "top" : [ {
+            "item" : "663",
+            "count" : 20
+          }, {
+            "item" : "674",
+            "count" : 19
+          }, {
+            "item" : "677",
+            "count" : 18
+          }, {
+            "item" : "681",
+            "count" : 17
+          }, {
+            "item" : "683",
+            "count" : 16
+          }, {
+            "item" : "679",
+            "count" : 15
+          }, {
+            "item" : "668",
+            "count" : 14
+          }, {
+            "item" : "675",
+            "count" : 13
+          }, {
+            "item" : "647",
+            "count" : 12
+          }, {
+            "item" : "673",
+            "count" : 11
+          }, {
+            "item" : "652",
+            "count" : 10
+          }, {
+            "item" : "669",
+            "count" : 9
+          }, {
+            "item" : "684",
+            "count" : 8
+          }, {
+            "item" : "671",
+            "count" : 7
+          }, {
+            "item" : "680",
+            "count" : 6
+          }, {
+            "item" : "689",
+            "count" : 5
+          }, {
+            "item" : "692",
+            "count" : 4
+          }, {
+            "item" : "687",
+            "count" : 3
+          }, {
+            "item" : "676",
+            "count" : 2
+          }, {
+            "item" : "691",
+            "count" : 1
+          } ],
+          "smallest" : "627",
+          "sum" : "141282"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959986,
+        "name" : "Level 1 #",
+        "dataTypeName" : "number",
+        "fieldName" : "level_1_1",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554368,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "2286.133333333333",
+          "largest" : "21859",
+          "null" : 0,
+          "top" : [ {
+            "item" : "327",
+            "count" : 20
+          }, {
+            "item" : "1113",
+            "count" : 19
+          }, {
+            "item" : "636",
+            "count" : 18
+          }, {
+            "item" : "2036",
+            "count" : 17
+          }, {
+            "item" : "1857",
+            "count" : 16
+          } ],
+          "smallest" : "54",
+          "sum" : "480088"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959987,
+        "name" : "Level 1 %",
+        "dataTypeName" : "percent",
+        "fieldName" : "level_1_2",
+        "position" : 9,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1554369,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "8.975238095238095",
+          "largest" : "33.1",
+          "null" : 0,
+          "top" : [ {
+            "item" : "10.4",
+            "count" : 20
+          }, {
+            "item" : "6.4",
+            "count" : 19
+          }, {
+            "item" : "10.1",
+            "count" : 18
+          }, {
+            "item" : "4.4",
+            "count" : 17
+          }, {
+            "item" : "5.2",
+            "count" : 16
+          }, {
+            "item" : "8.1",
+            "count" : 15
+          }, {
+            "item" : "3.0",
+            "count" : 14
+          }, {
+            "item" : "7.3",
+            "count" : 13
+          }, {
+            "item" : "12.3",
+            "count" : 12
+          }, {
+            "item" : "7.5",
+            "count" : 11
+          }, {
+            "item" : "8.7",
+            "count" : 10
+          }, {
+            "item" : "5.4",
+            "count" : 9
+          }, {
+            "item" : "4.1",
+            "count" : 8
+          }, {
+            "item" : "3.7",
+            "count" : 7
+          }, {
+            "item" : "5.5",
+            "count" : 6
+          }, {
+            "item" : "4.9",
+            "count" : 5
+          }, {
+            "item" : "4.0",
+            "count" : 4
+          }, {
+            "item" : "2.9",
+            "count" : 3
+          }, {
+            "item" : "1.5",
+            "count" : 2
+          }, {
+            "item" : "5.1",
+            "count" : 1
+          } ],
+          "smallest" : "0.9",
+          "sum" : "1884.8"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959988,
+        "name" : "Level 2 #",
+        "dataTypeName" : "number",
+        "fieldName" : "level_2_1",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554370,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "6312.552380952381",
+          "largest" : "47267",
+          "null" : 0,
+          "top" : [ {
+            "item" : "5035",
+            "count" : 20
+          }, {
+            "item" : "3917",
+            "count" : 19
+          }, {
+            "item" : "3044",
+            "count" : 18
+          }, {
+            "item" : "8208",
+            "count" : 17
+          }, {
+            "item" : "7335",
+            "count" : 16
+          } ],
+          "smallest" : "258",
+          "sum" : "1325636"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959989,
+        "name" : "Level 2 %",
+        "dataTypeName" : "percent",
+        "fieldName" : "level_2_2",
+        "position" : 11,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1554371,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "25.23571428571429",
+          "largest" : "48.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "26.8",
+            "count" : 20
+          }, {
+            "item" : "15.2",
+            "count" : 19
+          }, {
+            "item" : "11.6",
+            "count" : 18
+          }, {
+            "item" : "31.2",
+            "count" : 17
+          }, {
+            "item" : "27.7",
+            "count" : 16
+          } ],
+          "smallest" : "5.3",
+          "sum" : "5299.5"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959990,
+        "name" : "Level 3 #",
+        "dataTypeName" : "number",
+        "fieldName" : "level_3_1",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554372,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "10843.91428571429",
+          "largest" : "73773",
+          "null" : 0,
+          "top" : [ {
+            "item" : "12922",
+            "count" : 20
+          }, {
+            "item" : "13820",
+            "count" : 19
+          }, {
+            "item" : "14364",
+            "count" : 18
+          }, {
+            "item" : "9163",
+            "count" : 17
+          }, {
+            "item" : "10869",
+            "count" : 16
+          } ],
+          "smallest" : "1376",
+          "sum" : "2277222"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959991,
+        "name" : "Level 3 %",
+        "dataTypeName" : "percent",
+        "fieldName" : "level_3_2",
+        "position" : 13,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1554373,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "44.49619047619048",
+          "largest" : "71.4",
+          "null" : 0,
+          "top" : [ {
+            "item" : "49.7",
+            "count" : 20
+          }, {
+            "item" : "52.0",
+            "count" : 19
+          }, {
+            "item" : "34.9",
+            "count" : 18
+          }, {
+            "item" : "41.0",
+            "count" : 17
+          } ],
+          "smallest" : "23.1",
+          "sum" : "9344.2"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959992,
+        "name" : "Level 4 #",
+        "dataTypeName" : "number",
+        "fieldName" : "level_4_1",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554374,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "5086.723809523810",
+          "largest" : "39142",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1127",
+            "count" : 20
+          }, {
+            "item" : "6964",
+            "count" : 19
+          }, {
+            "item" : "8117",
+            "count" : 18
+          }, {
+            "item" : "6869",
+            "count" : 17
+          }, {
+            "item" : "6459",
+            "count" : 16
+          } ],
+          "smallest" : "364",
+          "sum" : "1068212"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959993,
+        "name" : "Level 4 %",
+        "dataTypeName" : "percent",
+        "fieldName" : "level_4_2",
+        "position" : 15,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1554375,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "21.29095238095238",
+          "largest" : "42.3",
+          "null" : 0,
+          "top" : [ {
+            "item" : "29.6",
+            "count" : 20
+          }, {
+            "item" : "31.8",
+            "count" : 19
+          }, {
+            "item" : "29.3",
+            "count" : 18
+          }, {
+            "item" : "17.3",
+            "count" : 17
+          }, {
+            "item" : "31.0",
+            "count" : 16
+          } ],
+          "smallest" : "2.2",
+          "sum" : "4471.1"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959994,
+        "name" : "Level 3+4 #",
+        "dataTypeName" : "number",
+        "fieldName" : "level_3_4_1",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1554376,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "15930.63809523810",
+          "largest" : "106961",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3255",
+            "count" : 20
+          }, {
+            "item" : "20784",
+            "count" : 19
+          }, {
+            "item" : "22481",
+            "count" : 18
+          }, {
+            "item" : "16032",
+            "count" : 17
+          }, {
+            "item" : "17328",
+            "count" : 16
+          } ],
+          "smallest" : "2169",
+          "sum" : "3345434"
+        },
+        "format" : { }
+      }, {
+        "id" : 2959995,
+        "name" : "Level 3+4 %",
+        "dataTypeName" : "percent",
+        "fieldName" : "level_3_4_2",
+        "position" : 17,
+        "renderTypeName" : "percent",
+        "tableColumnId" : 1554377,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 210,
+          "average" : "65.78333333333333",
+          "largest" : "93.8",
+          "null" : 0,
+          "top" : [ {
+            "item" : "69.2",
+            "count" : 20
+          }, {
+            "item" : "82.5",
+            "count" : 19
+          }, {
+            "item" : "81.4",
+            "count" : 18
+          }, {
+            "item" : "65.3",
+            "count" : 17
+          } ],
+          "smallest" : "25.4",
+          "sum" : "13814.5"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Historical Data"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Education (DOE)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "rnig-m3uj",
+        "displayName" : "Jorge J.",
+        "profileImageUrlLarge" : "/api/users/rnig-m3uj/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/rnig-m3uj/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/rnig-m3uj/profile_images/TINY",
+        "screenName" : "Jorge J."
+      },
+      "tags" : [ "lifelong learning" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "C1DCD2C0-2D74-4706-82C5-9497554CBE63", 1, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "3", "2006", "All Students", "16445", "663", "2062", "12.5", "3257", "19.8", "8618", "52.4", "2508", "15.3", "11126", "67.7" ]
+, [ 2, "A13103A4-7A3B-4FE2-A7AA-E14BBF968095", 2, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "3", "2007", "All Students", "16189", "674", "1245", "7.7", "2640", "16.3", "8996", "55.6", "3308", "20.4", "12304", "76.0" ]
+, [ 3, "BC481491-15CA-4833-BAA7-944F4873EC07", 3, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "3", "2008", "All Students", "15636", "677", "670", "4.3", "2061", "13.2", "10447", "66.8", "2458", "15.7", "12905", "82.5" ]
+, [ 4, "D2368F46-E9F6-4049-8901-DA8F89297857", 4, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "3", "2009", "All Students", "15809", "681", "258", "1.6", "1566", "9.9", "11295", "71.4", "2690", "17.0", "13985", "88.5" ]
+, [ 5, "6C653363-E3E4-4E14-9AA8-3E98C4D50AE0", 5, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "3", "2010", "All Students", "15866", "683", "2638", "16.6", "6337", "39.9", "4629", "29.2", "2262", "14.3", "6891", "43.4" ]
+, [ 6, "1D9F9CD6-A604-4C5B-A0A7-852C0A2E76E1", 6, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "3", "2011", "All Students", "15820", "679", "2566", "16.2", "6628", "41.9", "5753", "36.4", "873", "5.5", "6626", "41.9" ]
+, [ 7, "6349E820-22FA-455D-847F-17ADEB747347", 7, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "4", "2006", "All Students", "15798", "658", "2212", "14.0", "3925", "24.8", "7702", "48.8", "1959", "12.4", "9661", "61.2" ]
+, [ 8, "9493EBB0-407D-4D88-9CE6-412BE6123A72", 8, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "4", "2007", "All Students", "16066", "662", "1906", "11.9", "3775", "23.5", "8202", "51.1", "2183", "13.6", "10385", "64.6" ]
+, [ 9, "03B0650D-0524-4087-B378-398ADBE33727", 9, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "4", "2008", "All Students", "15745", "668", "1404", "8.9", "2943", "18.7", "9010", "57.2", "2388", "15.2", "11398", "72.4" ]
+, [ 10, "344CFA93-A5D0-4FD0-B8C1-615C2385146A", 10, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "4", "2009", "All Students", "15531", "678", "1031", "6.6", "2188", "14.1", "8631", "55.6", "3681", "23.7", "12312", "79.3" ]
+, [ 11, "11DB34C9-AD98-4D32-A5DB-526220A8F1D4", 11, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "4", "2010", "All Students", "15906", "674", "1524", "9.6", "6980", "43.9", "5232", "32.9", "2170", "13.6", "7402", "46.5" ]
+, [ 12, "158B469E-1255-47CB-9097-524A4798B194", 12, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "4", "2011", "All Students", "15912", "675", "1531", "9.6", "6399", "40.2", "5800", "36.5", "2182", "13.7", "7982", "50.2" ]
+, [ 13, "01B8984A-ED63-4837-8DBE-A3CDE5769989", 13, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "5", "2006", "All Students", "16393", "647", "2975", "18.1", "5540", "33.8", "6698", "40.9", "1180", "7.2", "7878", "48.1" ]
+, [ 14, "D124345C-713C-4025-AC10-41E99BB9F175", 14, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "5", "2007", "All Students", "16260", "656", "1960", "12.1", "4881", "30.0", "7802", "48.0", "1617", "9.9", "9419", "57.9" ]
+, [ 15, "F24E9C7E-1B45-4415-9E9E-1D511636C09C", 15, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "5", "2008", "All Students", "15762", "664", "1236", "7.8", "3445", "21.9", "8957", "56.8", "2124", "13.5", "11081", "70.3" ]
+, [ 16, "F46A6585-BC07-4EE7-9A63-7E33A63ED603", 16, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "5", "2009", "All Students", "15499", "673", "664", "4.3", "2592", "16.7", "8790", "56.7", "3453", "22.3", "12243", "79.0" ]
+, [ 17, "D55A2298-1D31-4384-BC38-AF806A0A016F", 17, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "5", "2010", "All Students", "15520", "673", "1719", "11.1", "6326", "40.8", "5331", "34.3", "2144", "13.8", "7475", "48.2" ]
+, [ 18, "4C61A615-44F7-4B45-A416-BE43E0F20447", 18, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "5", "2011", "All Students", "15706", "675", "1561", "9.9", "6091", "38.8", "6116", "38.9", "1938", "12.3", "8054", "51.3" ]
+, [ 19, "FA1BE908-91AA-40DC-ABBE-FA422BF1D522", 19, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "6", "2006", "All Students", "15831", "636", "4095", "25.9", "5598", "35.4", "5467", "34.5", "671", "4.2", "6138", "38.8" ]
+, [ 20, "28CB9518-6380-4B90-AFC7-D199DC0B97BD", 20, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "6", "2007", "All Students", "15622", "647", "2862", "18.3", "5128", "32.8", "6516", "41.7", "1116", "7.1", "7632", "48.9" ]
+, [ 21, "617F8DA1-B218-47DB-811A-917AEE153B9C", 21, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "6", "2008", "All Students", "15375", "654", "1837", "11.9", "4407", "28.7", "7541", "49.0", "1590", "10.3", "9131", "59.4" ]
+, [ 22, "B964E40A-62B1-45CD-BA60-50CED09721F2", 22, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "6", "2009", "All Students", "15440", "663", "1231", "8.0", "3856", "25.0", "8385", "54.3", "1968", "12.7", "10353", "67.1" ]
+, [ 23, "5F4333EE-DC50-4703-B18F-2BA08F15F435", 23, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "6", "2010", "All Students", "15408", "665", "2580", "16.7", "6572", "42.7", "4250", "27.6", "2006", "13.0", "6256", "40.6" ]
+, [ 24, "1E3BBA89-3A9E-4551-9C0E-903AB0D7CBD4", 24, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "6", "2011", "All Students", "15393", "667", "2531", "16.4", "6313", "41.0", "4771", "31.0", "1778", "11.6", "6549", "42.5" ]
+, [ 25, "8BA3392A-3741-4DD4-BAED-20E52BCEC3D4", 25, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "7", "2006", "All Students", "16655", "629", "4192", "25.2", "7373", "44.3", "4726", "28.4", "364", "2.2", "5090", "30.6" ]
+, [ 26, "D15E3E82-946E-4D5E-BD69-57548375AB5A", 26, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "7", "2007", "All Students", "16206", "642", "2571", "15.9", "6746", "41.6", "5934", "36.6", "955", "5.9", "6889", "42.5" ]
+, [ 27, "5F9DAFE1-DCD7-40CA-BAD4-84F7CF6D5968", 27, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "7", "2008", "All Students", "16031", "652", "1351", "8.4", "5546", "34.6", "7847", "48.9", "1287", "8.0", "9134", "57.0" ]
+, [ 28, "C44FFEB0-50AC-4CD0-86E8-05B7E3E2D82B", 28, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "7", "2009", "All Students", "15611", "663", "499", "3.2", "3933", "25.2", "9551", "61.2", "1628", "10.4", "11179", "71.6" ]
+, [ 29, "61CEF278-B0E7-456E-8DBA-0545397933F9", 29, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "7", "2010", "All Students", "15554", "660", "2780", "17.9", "6726", "43.2", "4261", "27.4", "1787", "11.5", "6048", "38.9" ]
+, [ 30, "394C33AA-9603-49AA-9DAC-688668B2E83F", 30, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "7", "2011", "All Students", "15455", "663", "2533", "16.4", "6528", "42.2", "4476", "29.0", "1918", "12.4", "6394", "41.4" ]
+, [ 31, "3A679F52-F477-4E6F-8E9D-D581DF4A89B5", 31, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "8", "2006", "All Students", "16738", "627", "5548", "33.1", "6942", "41.5", "3874", "23.1", "374", "2.2", "4248", "25.4" ]
+, [ 32, "F98A0B1C-2E57-435C-B8E5-776A826119F5", 32, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "8", "2007", "All Students", "16729", "634", "4500", "26.9", "6953", "41.6", "4779", "28.6", "497", "3.0", "5276", "31.5" ]
+, [ 33, "C7CA5413-41A5-4F9A-91BB-9DE268F4D605", 33, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "8", "2008", "All Students", "15812", "646", "2410", "15.2", "5998", "37.9", "6534", "41.3", "870", "5.5", "7404", "46.8" ]
+, [ 34, "D2366D2D-7441-4E17-815D-7DAC737B32A8", 34, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "8", "2009", "All Students", "16054", "659", "1024", "6.4", "5013", "31.2", "8784", "54.7", "1233", "7.7", "10017", "62.4" ]
+, [ 35, "F9848468-F5B2-4686-B6E6-2A28C631BEB3", 35, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "8", "2010", "All Students", "15899", "661", "3213", "20.2", "7765", "48.8", "3709", "23.3", "1212", "7.6", "4921", "31.0" ]
+, [ 36, "F7A941CC-7B95-4780-9B1D-D36427F59586", 36, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "8", "2011", "All Students", "15753", "662", "2670", "16.9", "6995", "44.4", "4970", "31.5", "1118", "7.1", "6088", "38.6" ]
+, [ 37, "F860E409-4625-4585-9EBA-1FC918964A81", 37, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "All Grades", "2006", "All Students", "97860", "643", "21084", "21.5", "32635", "33.3", "37085", "37.9", "7056", "7.2", "44141", "45.1" ]
+, [ 38, "3F8D3BA4-AFD0-47DE-A402-747D64B05DF3", 38, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "All Grades", "2007", "All Students", "97072", "652", "15044", "15.5", "30123", "31.0", "42229", "43.5", "9676", "10.0", "51905", "53.5" ]
+, [ 39, "1C4D8DCB-CF62-4A64-B672-61F7EF8990ED", 39, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "All Grades", "2008", "All Students", "94361", "660", "8908", "9.4", "24400", "25.9", "50336", "53.3", "10717", "11.4", "61053", "64.7" ]
+, [ 40, "25996AEB-F934-4178-AAED-6824FC2F7A6C", 40, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "All Grades", "2009", "All Students", "93944", "669", "4707", "5.0", "19148", "20.4", "55436", "59.0", "14653", "15.6", "70089", "74.6" ]
+, [ 41, "17722415-5324-4C0D-8CA7-0661ABCEF6A9", 41, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "All Grades", "2010", "All Students", "94153", "669", "14454", "15.4", "40706", "43.2", "27412", "29.1", "11581", "12.3", "38993", "41.4" ]
+, [ 42, "061ED223-4443-4EE5-8709-6E5531810865", 42, 1317827500, "396547", 1317827500, "396547", "{\n}", "BRONX", "All Grades", "2011", "All Students", "94039", "670", "13392", "14.2", "38954", "41.4", "31886", "33.9", "9807", "10.4", "41693", "44.3" ]
+, [ 43, "BCE41551-A327-4C1C-A364-F4B13F89140F", 43, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "3", "2006", "All Students", "23053", "674", "2023", "8.8", "3642", "15.8", "11820", "51.3", "5568", "24.2", "17388", "75.4" ]
+, [ 44, "535992AF-420B-4723-9078-FCA43376D34B", 44, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "3", "2007", "All Students", "22761", "683", "1238", "5.4", "2863", "12.6", "11922", "52.4", "6738", "29.6", "18660", "82.0" ]
+, [ 45, "578914FF-BF55-4003-8660-BFC1B3ACC84F", 45, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "3", "2008", "All Students", "21882", "684", "736", "3.4", "2134", "9.8", "13810", "63.1", "5202", "23.8", "19012", "86.9" ]
+, [ 46, "85813C72-7204-405A-8E9E-0822441E971D", 46, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "3", "2009", "All Students", "21818", "690", "307", "1.4", "1595", "7.3", "14460", "66.3", "5456", "25.0", "19916", "91.3" ]
+, [ 47, "6E9125EC-1FDE-447B-8D05-FBD984347530", 47, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "3", "2010", "All Students", "22068", "690", "2761", "12.5", "7501", "34.0", "7039", "31.9", "4767", "21.6", "11806", "53.5" ]
+, [ 48, "450AC786-4009-4B5E-9FD8-E9246A205AA6", 48, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "3", "2011", "All Students", "22188", "684", "2613", "11.8", "7455", "33.6", "9472", "42.7", "2648", "11.9", "12120", "54.6" ]
+, [ 49, "E9C19CEF-BC7F-4804-921C-8C92307605CE", 49, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "4", "2006", "All Students", "22594", "670", "2279", "10.1", "4257", "18.8", "11208", "49.6", "4850", "21.5", "16058", "71.1" ]
+, [ 50, "E99B4A08-E508-446C-A24F-19C47F51E66C", 50, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "4", "2007", "All Students", "22313", "674", "1781", "8.0", "3960", "17.7", "11324", "50.8", "5248", "23.5", "16572", "74.3" ]
+, [ 51, "B71814BE-1E74-4E85-BD78-885950537732", 51, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "4", "2008", "All Students", "22124", "679", "1417", "6.4", "3156", "14.3", "11678", "52.8", "5873", "26.5", "17551", "79.3" ]
+, [ 52, "A3ABDDC6-8DEF-4E1B-8DFB-FDEA35B2939F", 52, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "4", "2009", "All Students", "21730", "689", "953", "4.4", "2346", "10.8", "10929", "50.3", "7502", "34.5", "18431", "84.8" ]
+, [ 53, "1E532BBF-B77B-46EC-A4C6-3C069F049D43", 53, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "4", "2010", "All Students", "22105", "684", "1565", "7.1", "7654", "34.6", "7569", "34.2", "5317", "24.1", "12886", "58.3" ]
+, [ 54, "CE2ADFFA-9981-4550-91CF-EE64BA9B8C3B", 54, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "4", "2011", "All Students", "22117", "685", "1518", "6.9", "7133", "32.3", "8085", "36.6", "5381", "24.3", "13466", "60.9" ]
+, [ 55, "34AE7FC3-5CED-428E-97E7-9EC1ED7F56A2", 55, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "5", "2006", "All Students", "23072", "661", "2920", "12.7", "5894", "25.5", "10300", "44.6", "3958", "17.2", "14258", "61.8" ]
+, [ 56, "D8E75A51-B3B6-4DFB-A816-B4AB65E502BA", 56, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "5", "2007", "All Students", "22862", "671", "1721", "7.5", "4821", "21.1", "11436", "50.0", "4884", "21.4", "16320", "71.4" ]
+, [ 57, "70AD6D0C-3F55-495D-80E6-E7CF091EDE17", 57, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "5", "2008", "All Students", "21830", "677", "1059", "4.9", "3447", "15.8", "11876", "54.4", "5448", "25.0", "17324", "79.4" ]
+, [ 58, "43C15FDC-E2D3-4FA5-8174-566F3F047C88", 58, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "5", "2009", "All Students", "21582", "683", "602", "2.8", "2567", "11.9", "11409", "52.9", "7004", "32.5", "18413", "85.3" ]
+, [ 59, "BF0C719A-4EA3-4977-9C2E-C296EC6F969B", 59, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "5", "2010", "All Students", "21368", "681", "1660", "7.8", "7232", "33.8", "7784", "36.4", "4692", "22.0", "12476", "58.4" ]
+, [ 60, "06081733-DFA2-402F-9511-E0C21CD25487", 60, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "5", "2011", "All Students", "21560", "684", "1480", "6.9", "6686", "31.0", "8615", "40.0", "4779", "22.2", "13394", "62.1" ]
+, [ 61, "125A8164-F09F-41F7-AFDB-F4398CE4B1EB", 61, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "6", "2006", "All Students", "23370", "649", "4264", "18.2", "7047", "30.2", "9491", "40.6", "2568", "11.0", "12059", "51.6" ]
+, [ 62, "52D8A285-C3DD-4EC3-BBFD-F2B8FA0F2042", 62, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "6", "2007", "All Students", "22296", "660", "2908", "13.0", "5608", "25.2", "10035", "45.0", "3745", "16.8", "13780", "61.8" ]
+, [ 63, "77A722E3-ED82-43F8-9DCD-1F9B3C8EFC73", 63, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "6", "2008", "All Students", "21817", "668", "1679", "7.7", "4562", "20.9", "10886", "49.9", "4690", "21.5", "15576", "71.4" ]
+, [ 64, "95F0E1A4-8D99-406D-836B-F6423FCA1A68", 64, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "6", "2009", "All Students", "21428", "674", "1095", "5.1", "3909", "18.2", "11449", "53.4", "4975", "23.2", "16424", "76.6" ]
+, [ 65, "724CB50C-DB7F-4E37-8224-9B04BBA21407", 65, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "6", "2010", "All Students", "21395", "675", "2524", "11.8", "7723", "36.1", "6267", "29.3", "4881", "22.8", "11148", "52.1" ]
+, [ 66, "1975D04E-CA9C-498E-B6E0-E6CD0FB2DDAC", 66, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "6", "2011", "All Students", "21302", "677", "2453", "11.5", "7188", "33.7", "6750", "31.7", "4911", "23.1", "11661", "54.7" ]
+, [ 67, "657FB4B0-1936-462D-9FCA-35BF827EB176", 67, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "7", "2006", "All Students", "23608", "640", "4592", "19.5", "8779", "37.2", "8477", "35.9", "1760", "7.5", "10237", "43.4" ]
+, [ 68, "3F8BB98D-AD3A-4EA3-8B57-D15E9CF49CC0", 68, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "7", "2007", "All Students", "23628", "654", "2744", "11.6", "8050", "34.1", "9566", "40.5", "3268", "13.8", "12834", "54.3" ]
+, [ 69, "4C73E8FD-6602-4BA2-9CB2-340E0CAB0F31", 69, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "7", "2008", "All Students", "22717", "663", "1382", "6.1", "5928", "26.1", "11264", "49.6", "4143", "18.2", "15407", "67.8" ]
+, [ 70, "F994318F-7BA3-4285-BDC2-B87E6E28D280", 70, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "7", "2009", "All Students", "22103", "674", "482", "2.2", "3832", "17.3", "12848", "58.1", "4941", "22.4", "17789", "80.5" ]
+, [ 71, "FEB85B64-B393-46FE-93D7-630A5D71BA95", 71, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "7", "2010", "All Students", "21779", "671", "2640", "12.1", "7838", "36.0", "6464", "29.7", "4837", "22.2", "11301", "51.9" ]
+, [ 72, "EF8319D8-3C31-40E0-B412-2BD1C01FE1A2", 72, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "7", "2011", "All Students", "21620", "674", "2402", "11.1", "7365", "34.1", "6413", "29.7", "5440", "25.2", "11853", "54.8" ]
+, [ 73, "DD36F09E-6646-4793-94E1-9140A5F38B5A", 73, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "8", "2006", "All Students", "24083", "640", "5781", "24.0", "8811", "36.6", "7719", "32.1", "1772", "7.4", "9491", "39.4" ]
+, [ 74, "BDF07B2E-62D3-4033-B6D3-580C3D44A41A", 74, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "8", "2007", "All Students", "23679", "647", "4583", "19.4", "8374", "35.4", "8612", "36.4", "2110", "8.9", "10722", "45.3" ]
+, [ 75, "22C8AFB0-938F-4712-82D6-2A5D9BF96662", 75, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "8", "2008", "All Students", "22798", "659", "2377", "10.4", "6839", "30.0", "10462", "45.9", "3120", "13.7", "13582", "59.6" ]
+, [ 76, "1C76D5D7-025E-420C-8005-3979B0BA6D18", 76, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "8", "2009", "All Students", "22830", "667", "1080", "4.7", "5762", "25.2", "12678", "55.5", "3310", "14.5", "15988", "70.0" ]
+, [ 77, "61A2020B-7BEE-47CC-BCF7-EE47B57295D1", 77, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "8", "2010", "All Students", "22849", "672", "3079", "13.5", "9319", "40.8", "6668", "29.2", "3783", "16.6", "10451", "45.7" ]
+, [ 78, "2BD9DF02-31D8-4F69-AAAB-9078F107309A", 78, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "8", "2011", "All Students", "22174", "673", "2556", "11.5", "8134", "36.7", "7708", "34.8", "3776", "17.0", "11484", "51.8" ]
+, [ 79, "35EA66C5-404F-4AE6-95EA-5751F31987A5", 79, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "All Grades", "2006", "All Students", "139780", "655", "21859", "15.6", "38430", "27.5", "59015", "42.2", "20476", "14.6", "79491", "56.9" ]
+, [ 80, "EAC9BF15-1602-481C-AE44-E533D8B63856", 80, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "All Grades", "2007", "All Students", "137539", "665", "14975", "10.9", "33676", "24.5", "62895", "45.7", "25993", "18.9", "88888", "64.6" ]
+, [ 81, "3808DE58-C7A7-4424-AC21-A7CF9BC4C57A", 81, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "All Grades", "2008", "All Students", "133168", "671", "8650", "6.5", "26066", "19.6", "69976", "52.5", "28476", "21.4", "98452", "73.9" ]
+, [ 82, "2782243C-DD44-4590-BB68-74547B3EDF8E", 82, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "All Grades", "2009", "All Students", "131491", "679", "4519", "3.4", "20011", "15.2", "73773", "56.1", "33188", "25.2", "106961", "81.3" ]
+, [ 83, "A1522F0B-9A5D-4E5D-AF8A-6AC0A6BDD5E9", 83, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "All Grades", "2010", "All Students", "131564", "679", "14229", "10.8", "47267", "35.9", "41791", "31.8", "28277", "21.5", "70068", "53.3" ]
+, [ 84, "738B847F-3754-4D89-ADB0-FB479EA9CD14", 84, 1317827500, "396547", 1317827500, "396547", "{\n}", "BROOKLYN", "All Grades", "2011", "All Students", "130961", "680", "13022", "9.9", "43961", "33.6", "47043", "35.9", "26935", "20.6", "73978", "56.5" ]
+, [ 85, "FA1A226D-A865-486E-97E9-4A5D876DD336", 85, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "3", "2006", "All Students", "9638", "671", "909", "9.4", "1713", "17.8", "4883", "50.7", "2133", "22.1", "7016", "72.8" ]
+, [ 86, "BD23C088-74BF-41F0-A344-51F82C4DD51F", 86, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "3", "2007", "All Students", "9437", "680", "559", "5.9", "1267", "13.4", "5163", "54.7", "2448", "25.9", "7611", "80.7" ]
+, [ 87, "45BA612B-68BF-4692-B611-CCA059F00B83", 87, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "3", "2008", "All Students", "9014", "684", "257", "2.9", "1014", "11.2", "5646", "62.6", "2097", "23.3", "7743", "85.9" ]
+, [ 88, "FABB7B1F-B4D3-46B2-B35E-2E1556B4033E", 88, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "3", "2009", "All Students", "9192", "689", "124", "1.3", "706", "7.7", "6090", "66.3", "2272", "24.7", "8362", "91.0" ]
+, [ 89, "9742AB13-9E46-42E9-B681-EDA18E671AB0", 89, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "3", "2010", "All Students", "8918", "692", "1083", "12.1", "2824", "31.7", "2902", "32.5", "2109", "23.6", "5011", "56.2" ]
+, [ 90, "93B3A34F-8352-4A7E-90A2-048BE7017092", 90, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "3", "2011", "All Students", "9006", "687", "984", "10.9", "2840", "31.5", "3714", "41.2", "1468", "16.3", "5182", "57.5" ]
+, [ 91, "21399048-B70D-46BD-928C-209A4EA06C77", 91, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "4", "2006", "All Students", "9645", "669", "1004", "10.4", "1965", "20.4", "4612", "47.8", "2064", "21.4", "6676", "69.2" ]
+, [ 92, "72FD91AA-B34B-4BCC-85F8-C8F031850C4B", 92, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "4", "2007", "All Students", "9328", "674", "793", "8.5", "1859", "19.9", "4433", "47.5", "2243", "24.0", "6676", "71.6" ]
+, [ 93, "AB1ECA51-DAB0-4169-87AF-034EC8EB8D31", 93, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "4", "2008", "All Students", "9157", "679", "569", "6.2", "1361", "14.9", "4782", "52.2", "2445", "26.7", "7227", "78.9" ]
+, [ 94, "388833F3-6600-4B1C-B7F1-80F0B40BEEC9", 94, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "4", "2009", "All Students", "8922", "689", "469", "5.3", "1020", "11.4", "4160", "46.6", "3273", "36.7", "7433", "83.3" ]
+, [ 95, "D9C86F52-AC38-4305-B597-1C5EFB51A658", 95, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "4", "2010", "All Students", "9243", "687", "659", "7.1", "3042", "32.9", "2975", "32.2", "2567", "27.8", "5542", "60.0" ]
+, [ 96, "443FF0EF-ECA0-4E35-842A-BE01BB50439E", 96, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "4", "2011", "All Students", "8984", "689", "577", "6.4", "2570", "28.6", "3151", "35.1", "2686", "29.9", "5837", "65.0" ]
+, [ 97, "4EEC61C8-44C9-4F57-9846-3F8485D9FEFC", 97, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "5", "2006", "All Students", "9786", "659", "1437", "14.7", "2588", "26.4", "4142", "42.3", "1619", "16.5", "5761", "58.9" ]
+, [ 98, "6E539AEC-5B1A-4F44-A7EE-6673A44B7A24", 98, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "5", "2007", "All Students", "9331", "669", "717", "7.7", "2157", "23.1", "4603", "49.3", "1854", "19.9", "6457", "69.2" ]
+, [ 99, "1266393E-B50F-45CC-9F6A-86E614D83FB9", 99, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "5", "2008", "All Students", "8914", "675", "512", "5.7", "1573", "17.6", "4564", "51.2", "2265", "25.4", "6829", "76.6" ]
+, [ 100, "E8B0106B-39C0-4291-A3F6-1BAE589027C1", 100, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "5", "2009", "All Students", "8724", "685", "235", "2.7", "988", "11.3", "4410", "50.6", "3091", "35.4", "7501", "86.0" ]
+, [ 101, "56C9B787-1012-44BB-8AAF-50D462FFB2C4", 101, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "5", "2010", "All Students", "8545", "684", "697", "8.2", "2643", "30.9", "2938", "34.4", "2267", "26.5", "5205", "60.9" ]
+, [ 102, "D68AC3A4-81D4-4C0B-AEF6-D1E0696D8DC7", 102, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "5", "2011", "All Students", "8697", "687", "595", "6.8", "2583", "29.7", "3164", "36.4", "2355", "27.1", "5519", "63.5" ]
+, [ 103, "2D85455B-F954-4521-8124-15ACCD2187DA", 103, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "6", "2006", "All Students", "10097", "652", "1626", "16.1", "3031", "30.0", "4179", "41.4", "1261", "12.5", "5440", "53.9" ]
+, [ 104, "D354E29A-5C35-4ADD-9AC3-B526CC77B551", 104, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "6", "2007", "All Students", "9216", "661", "1143", "12.4", "2350", "25.5", "4114", "44.6", "1609", "17.5", "5723", "62.1" ]
+, [ 105, "73217BE7-ACA5-411B-9717-CCFACD07B5B3", 105, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "6", "2008", "All Students", "9095", "668", "711", "7.8", "1937", "21.3", "4461", "49.0", "1986", "21.8", "6447", "70.9" ]
+, [ 106, "92AA6C60-5F76-4032-B46E-B999AE2EE819", 106, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "6", "2009", "All Students", "8799", "676", "416", "4.7", "1630", "18.5", "4410", "50.1", "2343", "26.6", "6753", "76.7" ]
+, [ 107, "7EE55032-60CD-43CD-A95B-F16169ADBFF7", 107, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "6", "2010", "All Students", "8677", "677", "982", "11.3", "3036", "35.0", "2494", "28.7", "2165", "25.0", "4659", "53.7" ]
+, [ 108, "FAF6D4FD-17D7-4B52-80AB-754B80B50B14", 108, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "6", "2011", "All Students", "8443", "681", "875", "10.4", "2589", "30.7", "2560", "30.3", "2419", "28.7", "4979", "59.0" ]
+, [ 109, "07407D3D-BEEA-4767-9DE8-F35AEC26C602", 109, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "7", "2006", "All Students", "10360", "642", "1854", "17.9", "3979", "38.4", "3648", "35.2", "879", "8.5", "4527", "43.7" ]
+, [ 110, "0C250AE7-DB80-4007-AD9F-68EFC2E9D382", 110, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "7", "2007", "All Students", "10050", "655", "967", "9.6", "3504", "34.9", "4096", "40.8", "1483", "14.8", "5579", "55.5" ]
+, [ 111, "82DD7EA2-FA29-4F3E-818C-5A82E92C9C47", 111, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "7", "2008", "All Students", "9313", "666", "495", "5.3", "2253", "24.2", "4671", "50.2", "1894", "20.3", "6565", "70.5" ]
+, [ 112, "A7F95B5E-9FAF-4AC0-9B3C-45BFD465A6D1", 112, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "7", "2009", "All Students", "9073", "676", "161", "1.8", "1487", "16.4", "5175", "57.0", "2250", "24.8", "7425", "81.8" ]
+, [ 113, "D22900BA-1595-4262-8910-20044DA2C524", 113, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "7", "2010", "All Students", "8900", "673", "988", "11.1", "3048", "34.2", "2572", "28.9", "2292", "25.8", "4864", "54.7" ]
+, [ 114, "9D978CA8-BC8F-44E9-BD46-696E5D92E671", 114, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "7", "2011", "All Students", "8668", "677", "878", "10.1", "2709", "31.3", "2495", "28.8", "2586", "29.8", "5081", "58.6" ]
+, [ 115, "94E5FDD8-0856-4D5F-8155-64DC4C39E874", 115, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "8", "2006", "All Students", "10494", "642", "2335", "22.3", "3841", "36.6", "3458", "33.0", "860", "8.2", "4318", "41.1" ]
+, [ 116, "D3FC41FB-66A4-412A-ACC9-2347AC4B5BBD", 116, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "8", "2007", "All Students", "10204", "647", "1935", "19.0", "3682", "36.1", "3723", "36.5", "864", "8.5", "4587", "45.0" ]
+, [ 117, "67D4C16F-7E98-4971-8BE3-9774FABCDF2B", 117, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "8", "2008", "All Students", "9874", "658", "1001", "10.1", "3122", "31.6", "4546", "46.0", "1205", "12.2", "5751", "58.2" ]
+, [ 118, "59514E42-5E2D-4504-9A07-30360DE6FC06", 118, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "8", "2009", "All Students", "9404", "668", "432", "4.6", "2246", "23.9", "5281", "56.2", "1445", "15.4", "6726", "71.5" ]
+, [ 119, "8E1D92B1-DA35-4F00-96A2-6D027B73F477", 119, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "8", "2010", "All Students", "9323", "674", "1157", "12.4", "3636", "39.0", "2876", "30.8", "1654", "17.7", "4530", "48.6" ]
+, [ 120, "A6E4BC0F-BE55-437A-8728-700039D5FFAA", 120, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "8", "2011", "All Students", "9062", "675", "972", "10.7", "3050", "33.7", "3256", "35.9", "1784", "19.7", "5040", "55.6" ]
+, [ 121, "C6EBA775-80A0-4B65-A32C-3073187E7EAF", 121, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "All Grades", "2006", "All Students", "60020", "655", "9165", "15.3", "17117", "28.5", "24922", "41.5", "8816", "14.7", "33738", "56.2" ]
+, [ 122, "8F7DCD23-D6D4-4DA0-A4F0-8D5D99E9A552", 122, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "All Grades", "2007", "All Students", "57566", "664", "6114", "10.6", "14819", "25.7", "26132", "45.4", "10501", "18.2", "36633", "63.6" ]
+, [ 123, "F0231C35-0166-47EC-AC7B-50BC9D493F3D", 123, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "All Grades", "2008", "All Students", "55367", "671", "3545", "6.4", "11260", "20.3", "28670", "51.8", "11892", "21.5", "40562", "73.3" ]
+, [ 124, "663ECE89-F586-4118-85F3-272EF0704DE8", 124, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "All Grades", "2009", "All Students", "54114", "680", "1837", "3.4", "8077", "14.9", "29526", "54.6", "14674", "27.1", "44200", "81.7" ]
+, [ 125, "D40051FA-D853-4715-9C70-678C68D7A89D", 125, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "All Grades", "2010", "All Students", "53606", "681", "5566", "10.4", "18229", "34.0", "16757", "31.3", "13054", "24.4", "29811", "55.6" ]
+, [ 126, "205405B4-42D8-4B4C-A336-F08D0AE3A0E2", 126, 1317827500, "396547", 1317827500, "396547", "{\n}", "MANHATTAN", "All Grades", "2011", "All Students", "52860", "683", "4881", "9.2", "16341", "30.9", "18340", "34.7", "13298", "25.2", "31638", "59.9" ]
+, [ 127, "E5631C62-354A-4FFF-9358-7CDEBEF7CADE", 127, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "3", "2006", "All Students", "19164", "684", "1056", "5.5", "2149", "11.2", "9719", "50.7", "6240", "32.6", "15959", "83.3" ]
+, [ 128, "67D7757E-0280-4BAC-AFC7-F7C1014EAA55", 128, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "3", "2007", "All Students", "19321", "691", "679", "3.5", "1730", "9.0", "9715", "50.3", "7197", "37.2", "16912", "87.5" ]
+, [ 129, "5ADA6EC2-566D-409D-AE27-C7CD274F3FC1", 129, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "3", "2008", "All Students", "19155", "692", "380", "2.0", "1312", "6.8", "11796", "61.6", "5667", "29.6", "17463", "91.2" ]
+, [ 130, "4830E233-0939-46FC-8C2A-729A7BF033B8", 130, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "3", "2009", "All Students", "20038", "695", "179", "0.9", "1071", "5.3", "12685", "63.3", "6103", "30.5", "18788", "93.8" ]
+, [ 131, "FEF421C0-4A1D-4CFF-8EFC-35A66F7CDE0F", 131, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "3", "2010", "All Students", "20083", "695", "1689", "8.4", "6138", "30.6", "6841", "34.1", "5415", "27.0", "12256", "61.0" ]
+, [ 132, "0E983FEC-ADE1-4FF3-93BE-779D74C4F0AC", 132, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "3", "2011", "All Students", "20742", "688", "1582", "7.6", "6359", "30.7", "9669", "46.6", "3132", "15.1", "12801", "61.7" ]
+, [ 133, "F36125AE-F6DC-4C4F-838B-69CFFDB085B6", 133, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "4", "2006", "All Students", "19259", "680", "1232", "6.4", "2744", "14.2", "9692", "50.3", "5591", "29.0", "15283", "79.4" ]
+, [ 134, "204DFB83-BC3E-41AE-95DD-E8AFF051A655", 134, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "4", "2007", "All Students", "19068", "684", "1031", "5.4", "2487", "13.0", "9477", "49.7", "6073", "31.8", "15550", "81.6" ]
+, [ 135, "5526914A-B5CF-4A96-A981-D2089CF8F28C", 135, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "4", "2008", "All Students", "19274", "687", "852", "4.4", "2047", "10.6", "9925", "51.5", "6450", "33.5", "16375", "85.0" ]
+, [ 136, "45ED54AF-1A4A-4335-B5DE-393FF0270AA2", 136, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "4", "2009", "All Students", "19194", "696", "593", "3.1", "1460", "7.6", "9222", "48.0", "7919", "41.3", "17141", "89.3" ]
+, [ 137, "14FAEC07-EF97-4D91-B513-603A154EB065", 137, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "4", "2010", "All Students", "20393", "691", "1052", "5.2", "5963", "29.2", "7227", "35.4", "6151", "30.2", "13378", "65.6" ]
+, [ 138, "0D8668A9-7A39-4A9A-BCA6-7F330695D871", 138, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "4", "2011", "All Students", "20242", "692", "884", "4.4", "5130", "25.3", "7791", "38.5", "6437", "31.8", "14228", "70.3" ]
+, [ 139, "CDDEADB4-6037-4B07-B0FE-AE3567B6117F", 139, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "5", "2006", "All Students", "19931", "672", "1613", "8.1", "3931", "19.7", "9627", "48.3", "4760", "23.9", "14387", "72.2" ]
+, [ 140, "24747DD8-8F27-4851-9100-9C29F35B1B7A", 140, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "5", "2007", "All Students", "19496", "681", "933", "4.8", "2902", "14.9", "9913", "50.8", "5748", "29.5", "15661", "80.3" ]
+, [ 141, "2681218F-CAAE-470A-8260-631EF5681D00", 141, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "5", "2008", "All Students", "19146", "686", "583", "3.0", "2130", "11.1", "10081", "52.7", "6352", "33.2", "16433", "85.8" ]
+, [ 142, "0144DEE3-28F0-40C1-8B29-F656B86056AC", 142, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "5", "2009", "All Students", "19440", "690", "358", "1.8", "1738", "8.9", "9320", "47.9", "8024", "41.3", "17344", "89.2" ]
+, [ 143, "41AD2576-0702-47FF-BEB1-1117D193CB5E", 143, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "5", "2010", "All Students", "19627", "689", "1015", "5.2", "5312", "27.1", "7550", "38.5", "5750", "29.3", "13300", "67.8" ]
+, [ 144, "792F7DA3-A37E-4426-ACCD-C259FF32EA78", 144, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "5", "2011", "All Students", "20503", "690", "1016", "5.0", "5053", "24.6", "8417", "41.1", "6017", "29.3", "14434", "70.4" ]
+, [ 145, "A44B90E4-9513-478C-9092-CD3EF6D23C60", 145, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "6", "2006", "All Students", "19460", "662", "2096", "10.8", "4687", "24.1", "9142", "47.0", "3535", "18.2", "12677", "65.1" ]
+, [ 146, "6BD5C1D3-2645-47E9-93C6-6B90C8E7D9E8", 146, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "6", "2007", "All Students", "19543", "675", "1380", "7.1", "3363", "17.2", "9728", "49.8", "5072", "26.0", "14800", "75.7" ]
+, [ 147, "EC6B764B-7FF0-471C-ABC0-0CE6539B001D", 147, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "6", "2008", "All Students", "19199", "679", "902", "4.7", "2738", "14.3", "9534", "49.7", "6025", "31.4", "15559", "81.0" ]
+, [ 148, "9A780953-B3BD-4531-B557-E1E2C7E8F117", 148, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "6", "2009", "All Students", "19363", "684", "627", "3.2", "2372", "12.3", "9883", "51.0", "6481", "33.5", "16364", "84.5" ]
+, [ 149, "21AAD83F-3B38-44EA-AA40-7D4B141A010F", 149, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "6", "2010", "All Students", "19878", "683", "1607", "8.1", "5960", "30.0", "6245", "31.4", "6066", "30.5", "12311", "61.9" ]
+, [ 150, "6067DB43-C3EA-49CE-AADC-BE4E954450E8", 150, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "6", "2011", "All Students", "19883", "685", "1452", "7.3", "5498", "27.7", "6899", "34.7", "6034", "30.3", "12933", "65.0" ]
+, [ 151, "244840BC-319F-44AE-8F8F-70553C861585", 151, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "7", "2006", "All Students", "19654", "652", "2423", "12.3", "6439", "32.8", "8352", "42.5", "2440", "12.4", "10792", "54.9" ]
+, [ 152, "300B6249-EAD3-4A16-860A-A922FBF2B16C", 152, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "7", "2007", "All Students", "19591", "664", "1467", "7.5", "5196", "26.5", "8984", "45.9", "3944", "20.1", "12928", "66.0" ]
+, [ 153, "CB040B86-75EA-4FD7-BC16-A35D3E1AF8EC", 153, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "7", "2008", "All Students", "19699", "674", "724", "3.7", "3650", "18.5", "10111", "51.3", "5214", "26.5", "15325", "77.8" ]
+, [ 154, "C93C36B4-C512-4BB9-BF7A-76FE118E765A", 154, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "7", "2009", "All Students", "19589", "682", "256", "1.3", "2271", "11.6", "10827", "55.3", "6235", "31.8", "17062", "87.1" ]
+, [ 155, "728896C3-874F-47C5-B862-EF0C492ABC9F", 155, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "7", "2010", "All Students", "19869", "678", "1647", "8.3", "5934", "29.9", "6050", "30.4", "6238", "31.4", "12288", "61.8" ]
+, [ 156, "CCD155D7-6082-4C7E-982F-4E409A60ED35", 156, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "7", "2011", "All Students", "20209", "680", "1502", "7.4", "5814", "28.8", "6493", "32.1", "6400", "31.7", "12893", "63.8" ]
+, [ 157, "6179FB69-2001-4E5B-9BF6-BFB06B37F8C5", 157, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "8", "2006", "All Students", "19579", "649", "3452", "17.6", "6782", "34.6", "7121", "36.4", "2224", "11.4", "9345", "47.7" ]
+, [ 158, "E932F149-0133-4FEB-979B-A05EAFE0102E", 158, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "8", "2007", "All Students", "19804", "658", "2442", "12.3", "6187", "31.2", "8397", "42.4", "2778", "14.0", "11175", "56.4" ]
+, [ 159, "9BBAA161-4D7A-4F31-A23F-7AA73DEC08C9", 159, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "8", "2008", "All Students", "19624", "668", "1303", "6.6", "4734", "24.1", "9823", "50.1", "3764", "19.2", "13587", "69.2" ]
+, [ 160, "9BB8D080-7B05-4E5D-B789-B735D096C081", 160, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "8", "2009", "All Students", "20058", "676", "593", "3.0", "3612", "18.0", "11473", "57.2", "4380", "21.8", "15853", "79.0" ]
+, [ 161, "3B10507F-0A6C-4B2F-BA8A-640B3F9CACF5", 161, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "8", "2010", "All Students", "20289", "681", "1760", "8.7", "7034", "34.7", "6572", "32.4", "4923", "24.3", "11495", "56.7" ]
+, [ 162, "9519A6DD-B270-4CD4-A546-21C8A55858DF", 162, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "8", "2011", "All Students", "20214", "681", "1515", "7.5", "6252", "30.9", "7769", "38.4", "4678", "23.1", "12447", "61.6" ]
+, [ 163, "DBE29736-38B9-4E79-849B-441C330E9A8A", 163, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "All Grades", "2006", "All Students", "117047", "666", "11872", "10.1", "26732", "22.8", "53653", "45.8", "24790", "21.2", "78443", "67.0" ]
+, [ 164, "6365797E-6F1F-44B5-B589-48EB9AED8F52", 164, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "All Grades", "2007", "All Students", "116823", "675", "7932", "6.8", "21865", "18.7", "56214", "48.1", "30812", "26.4", "87026", "74.5" ]
+, [ 165, "3C974ADD-85B0-4327-BC0B-314BE28947A2", 165, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "All Grades", "2008", "All Students", "116097", "681", "4744", "4.1", "16611", "14.3", "61270", "52.8", "33472", "28.8", "94742", "81.6" ]
+, [ 166, "872ED50F-359F-4391-A601-4E51852EC78E", 166, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "All Grades", "2009", "All Students", "117682", "687", "2606", "2.2", "12524", "10.6", "63410", "53.9", "39142", "33.3", "102552", "87.1" ]
+, [ 167, "F6D504FC-BFC2-4846-96C9-44640E667E3B", 167, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "All Grades", "2010", "All Students", "120139", "686", "8770", "7.3", "36341", "30.2", "40485", "33.7", "34543", "28.8", "75028", "62.5" ]
+, [ 168, "F193DAFA-4194-4D30-9799-55EB96D2D400", 168, 1317827500, "396547", 1317827500, "396547", "{\n}", "QUEENS", "All Grades", "2011", "All Students", "121793", "686", "7951", "6.5", "34106", "28.0", "47038", "38.6", "32698", "26.8", "79736", "65.5" ]
+, [ 169, "F45A2601-D974-4079-AABC-BBBC1DFBDD2E", 169, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "3", "2006", "All Students", "4305", "684", "288", "6.7", "467", "10.8", "2091", "48.6", "1459", "33.9", "3550", "82.5" ]
+, [ 170, "5A8DCC66-5455-4876-865B-80433A19AF96", 170, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "3", "2007", "All Students", "4365", "690", "176", "4.0", "378", "8.7", "2258", "51.7", "1553", "35.6", "3811", "87.3" ]
+, [ 171, "BF7657EF-B7F2-47DF-B48A-A0AB54DA8F33", 171, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "3", "2008", "All Students", "4375", "691", "100", "2.3", "333", "7.6", "2671", "61.1", "1271", "29.1", "3942", "90.1" ]
+, [ 172, "5A486440-5F69-49CA-BDA8-8D484C3CEB2A", 172, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "3", "2009", "All Students", "4519", "694", "54", "1.2", "258", "5.7", "2871", "63.5", "1336", "29.6", "4207", "93.1" ]
+, [ 173, "9615DEB6-96F6-4383-B78F-57E083796689", 173, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "3", "2010", "All Students", "4416", "695", "384", "8.7", "1286", "29.1", "1546", "35.0", "1200", "27.2", "2746", "62.2" ]
+, [ 174, "F33C8B96-571F-43F1-A24D-30123B22550B", 174, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "3", "2011", "All Students", "4721", "688", "406", "8.6", "1331", "28.2", "2347", "49.7", "637", "13.5", "2984", "63.2" ]
+, [ 175, "44F606EF-6791-4E06-A0DF-41D9C77008EA", 175, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "4", "2006", "All Students", "4276", "681", "243", "5.7", "553", "12.9", "2225", "52.0", "1255", "29.3", "3480", "81.4" ]
+, [ 176, "F3CE4F50-DF5A-4A7D-9432-F07B652A5A06", 176, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "4", "2007", "All Students", "4314", "682", "233", "5.4", "571", "13.2", "2233", "51.8", "1277", "29.6", "3510", "81.4" ]
+, [ 177, "7B81930E-366F-495C-865D-23038D58415E", 177, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "4", "2008", "All Students", "4306", "686", "175", "4.1", "446", "10.4", "2324", "54.0", "1361", "31.6", "3685", "85.6" ]
+, [ 178, "59C09B13-0819-47AC-86E2-F4DC07428B1A", 178, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "4", "2009", "All Students", "4383", "694", "160", "3.7", "348", "7.9", "2078", "47.4", "1797", "41.0", "3875", "88.4" ]
+, [ 179, "22E3B2CD-26B6-4AC8-A7AF-16AB557845AD", 179, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "4", "2010", "All Students", "4530", "689", "247", "5.5", "1354", "29.9", "1656", "36.6", "1273", "28.1", "2929", "64.7" ]
+, [ 180, "E3A16D3F-83AE-4A01-BB5E-81AF5D69F7B0", 180, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "4", "2011", "All Students", "4425", "692", "215", "4.9", "1063", "24.0", "1761", "39.8", "1386", "31.3", "3147", "71.1" ]
+, [ 181, "25B65547-F931-480D-B8AE-8EE16A610276", 181, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "5", "2006", "All Students", "4335", "673", "316", "7.3", "784", "18.1", "2188", "50.5", "1047", "24.2", "3235", "74.6" ]
+, [ 182, "51DF6368-5F40-4AB1-BCCF-1572E63B0938", 182, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "5", "2007", "All Students", "4389", "680", "177", "4.0", "593", "13.5", "2400", "54.7", "1219", "27.8", "3619", "82.5" ]
+, [ 183, "D9FF7C1F-0821-4632-A00E-723E972DFA25", 183, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "5", "2008", "All Students", "4353", "686", "128", "2.9", "458", "10.5", "2313", "53.1", "1454", "33.4", "3767", "86.5" ]
+, [ 184, "C92BECB8-05AC-49E7-8AEC-D1E9683FEEFD", 184, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "5", "2009", "All Students", "4357", "692", "65", "1.5", "317", "7.3", "2133", "49.0", "1842", "42.3", "3975", "91.2" ]
+, [ 185, "1D2956FC-C9EF-49A8-8707-BE4814A2BA35", 185, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "5", "2010", "All Students", "4413", "689", "225", "5.1", "1183", "26.8", "1759", "39.9", "1246", "28.2", "3005", "68.1" ]
+, [ 186, "E166413F-EAFB-4CE9-8913-D9319F069F9C", 186, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "5", "2011", "All Students", "4522", "690", "184", "4.1", "1083", "23.9", "2010", "44.4", "1245", "27.5", "3255", "72.0" ]
+, [ 187, "473AD789-C9F3-4C5D-9375-B6E5FE771177", 187, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "6", "2006", "All Students", "4231", "656", "561", "13.3", "1133", "26.8", "1949", "46.1", "588", "13.9", "2537", "60.0" ]
+, [ 188, "A1FF1668-6ED7-4DA3-8077-4D85976A1565", 188, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "6", "2007", "All Students", "4133", "666", "390", "9.4", "882", "21.3", "2148", "52.0", "713", "17.3", "2861", "69.2" ]
+, [ 189, "452F182A-E033-418E-9FF9-2B84458A00B3", 189, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "6", "2008", "All Students", "4227", "675", "229", "5.4", "697", "16.5", "2174", "51.4", "1127", "26.7", "3301", "78.1" ]
+, [ 190, "A863A1DC-7A83-4FDE-BDDB-1264017DD32F", 190, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "6", "2009", "All Students", "4260", "679", "164", "3.8", "628", "14.7", "2234", "52.4", "1234", "29.0", "3468", "81.4" ]
+, [ 191, "745FDCFE-2148-4829-A4CE-876444264570", 191, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "6", "2010", "All Students", "4245", "680", "373", "8.8", "1341", "31.6", "1404", "33.1", "1127", "26.5", "2531", "59.6" ]
+, [ 192, "E91AA0E8-9847-47FC-A674-437C2B662582", 192, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "6", "2011", "All Students", "4225", "683", "321", "7.6", "1251", "29.6", "1483", "35.1", "1170", "27.7", "2653", "62.8" ]
+, [ 193, "9E824555-58F7-4787-A4F5-22CAA08264D1", 193, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "7", "2006", "All Students", "4262", "651", "512", "12.0", "1377", "32.3", "1931", "45.3", "442", "10.4", "2373", "55.7" ]
+, [ 194, "8C8D9007-B49A-4D5D-B3C5-824E4F2D2ACA", 194, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "7", "2007", "All Students", "4300", "662", "327", "7.6", "1216", "28.3", "1985", "46.2", "772", "18.0", "2757", "64.1" ]
+, [ 195, "7C6F95D7-A419-4B18-A504-5F3C0B7A449F", 195, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "7", "2008", "All Students", "4253", "672", "147", "3.5", "851", "20.0", "2212", "52.0", "1043", "24.5", "3255", "76.5" ]
+, [ 196, "8092ABB7-6FEE-44A9-843C-F0BA9B43AEA8", 196, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "7", "2009", "All Students", "4337", "678", "59", "1.4", "570", "13.1", "2544", "58.7", "1164", "26.8", "3708", "85.5" ]
+, [ 197, "86E1F8AB-11C7-42A3-8FCE-66A40A27B616", 197, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "7", "2010", "All Students", "4260", "676", "348", "8.2", "1369", "32.1", "1376", "32.3", "1167", "27.4", "2543", "59.7" ]
+, [ 198, "66EA6E9D-8C8C-495A-9117-2B5DF86D2083", 198, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "7", "2011", "All Students", "4275", "679", "327", "7.6", "1166", "27.3", "1458", "34.1", "1324", "31.0", "2782", "65.1" ]
+, [ 199, "7E9FFC60-7BA1-4073-A013-4706A25E35BD", 199, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "8", "2006", "All Students", "4472", "648", "737", "16.5", "1566", "35.0", "1795", "40.1", "374", "8.4", "2169", "48.5" ]
+, [ 200, "0DABB43E-498B-4653-974F-6C3EC4E627BB", 200, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "8", "2007", "All Students", "4380", "654", "616", "14.1", "1395", "31.8", "1898", "43.3", "471", "10.8", "2369", "54.1" ]
+, [ 201, "A820A26F-0A48-4022-9A14-AB5DE36B4E81", 201, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "8", "2008", "All Students", "4300", "665", "334", "7.8", "1132", "26.3", "2126", "49.4", "708", "16.5", "2834", "65.9" ]
+, [ 202, "9BE7B7A6-D2A7-4E21-B93F-2B93820CE212", 202, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "8", "2009", "All Students", "4305", "672", "134", "3.1", "923", "21.4", "2504", "58.2", "744", "17.3", "3248", "75.4" ]
+, [ 203, "4751C3BF-8E33-4883-B710-46763C1C6F34", 203, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "8", "2010", "All Students", "4412", "676", "459", "10.4", "1675", "38.0", "1422", "32.2", "856", "19.4", "2278", "51.6" ]
+, [ 204, "79E9C3A5-11CD-4957-BCC7-247DE56C81DC", 204, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "8", "2011", "All Students", "4352", "676", "404", "9.3", "1441", "33.1", "1810", "41.6", "697", "16.0", "2507", "57.6" ]
+, [ 205, "91E89EF9-50AD-4932-81C0-E56660485D04", 205, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "All Grades", "2006", "All Students", "25881", "665", "2657", "10.3", "5880", "22.7", "12179", "47.1", "5165", "20.0", "17344", "67.0" ]
+, [ 206, "F0193A91-B27F-4A5E-BA50-27B6265BF454", 206, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "All Grades", "2007", "All Students", "25881", "672", "1919", "7.4", "5035", "19.5", "12922", "49.9", "6005", "23.2", "18927", "73.1" ]
+, [ 207, "18E2B1D9-B449-4D70-8690-D4F4457CE121", 207, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "All Grades", "2008", "All Students", "25814", "679", "1113", "4.3", "3917", "15.2", "13820", "53.5", "6964", "27.0", "20784", "80.5" ]
+, [ 208, "1D42EF0B-7E95-421E-BC7F-16EFB6626110", 208, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "All Grades", "2009", "All Students", "26161", "685", "636", "2.4", "3044", "11.6", "14364", "54.9", "8117", "31.0", "22481", "85.9" ]
+, [ 209, "101A6122-9B2A-4AAF-90D5-3456E188F865", 209, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "All Grades", "2010", "All Students", "26276", "684", "2036", "7.7", "8208", "31.2", "9163", "34.9", "6869", "26.1", "16032", "61.0" ]
+, [ 210, "31BE150E-A5A4-4120-8123-A602EE7941E3", 210, 1317827500, "396547", 1317827500, "396547", "{\n}", "STATEN ISLAND", "All Grades", "2011", "All Students", "26520", "685", "1857", "7.0", "7335", "27.7", "10869", "41.0", "6459", "24.4", "17328", "65.3" ]
+ ]
+}
